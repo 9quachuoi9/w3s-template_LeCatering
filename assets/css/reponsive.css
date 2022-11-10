@@ -10,10 +10,29 @@
 
 /* Tablet & mobile */
 @media (max-width: 63.9375em) {
-
+        
+    .about__desc:last-of-type {
+        display: none;
+    }
 }
 
 /* Mobile */
 @media (max-width: 46.1875em) {
+    .navhar--hidden {
+        display: none;
+    }
+
+    .about,
+    .menu {
+        flex-direction: column-reverse;
+    }
+
+    .contact__heading {
+        text-align: center;
+    }
+
+    .form__button {
+        width: 100%;
+    }
 
 }
